@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Lista de Categorias";
+}
+
+<!DOCTYPE html>
+<link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+
+<html>
+<head>
+    <title>Lista de Categorias</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome da Categoria</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var categoria in ViewBag.Categorias)
+            {
+                <tr>
+                    <td>@categoria.Id</td>
+                    <td>@categoria.Nome</td>
+                    <td>@categoria.Descricao</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
+
+

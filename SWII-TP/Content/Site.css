@@ -1,0 +1,53 @@
+﻿
+* {
+    padding:0px;
+}
+
+.body-content {    
+    padding-left: 0;
+    padding-right: 0;   
+    width: auto;
+    font-family: 'Fira Code';
+    
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+body {
+    text-align:center;
+    padding-bottom: 5em;       
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+}
+
+.content-home {
+    padding-bottom:1em;
+    padding-top:1em;
+    border-radius: 10px 10px;
+    background-color:#e1dfdf;
+    opacity: 0.9;    
+    padding-bottom:1em;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+    
+}
+
+.content-home > ul {
+    background-color:#000000;
+    border-radius: 10px 10px;
+    text-align:center;
+}
+

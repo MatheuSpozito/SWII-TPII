@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <meta name="viewport" contet="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>Pagina inicial da aplicacao</h1>
+    <div class="content-home">
+        <ul>@Html.ActionLink("Produtos", "Index", "Produto", new { area = "" }, new { @class = "navbar-brand" })</ul>
+        <ul>@Html.ActionLink("Categorias", "Index", "Categoria", new { area = "" }, new { @class = "navbar-brand" })</ul>        
+    </div>
+</body>
+</html>
+
