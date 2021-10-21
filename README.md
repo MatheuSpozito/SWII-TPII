@@ -3,9 +3,11 @@
 Aplicação desenvolvida para entrega de trabalho prático da matéria Sistemas Web II - Professor: Me. Wellington Tuler Moraes
 
 
+
+
 Index
 <div align="center">
-<img src="https://github.com/MatheuSpozito/SWII-TPII/issues/1#issue-1031955496" />
+<img src="https://user-images.githubusercontent.com/77819132/138193122-be387d15-5f1a-4274-bb6a-692f5c32365d.png" width="700px" />
 </div>
 
 Categorias 
